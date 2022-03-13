@@ -200,44 +200,104 @@
             ]
         },
         {
-            "name": "",
-            "category": "dessert"
+            "name": "sun dried tomato chicken and gnocchi",
+            "category": "chicken",
+            "image": "files/sun-dried-tomato-chicken-and-gnocchi.jpg",
+            "yield": "4-6 servings",
+            "prepTime": "20 minutes",
+            "totalTime": "1 hour",
+            "ingredients": [
+                "1 (16-ounce) package cauliflower potato gnocchi",
+                "1 1/2 pounds boneless, skinless chicken thighs",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "3 tablespoons unsalted butter, divided",
+                "1 medium shallot, diced",
+                "1/2 cup sun dried tomatoes halves",
+                "1 tablespoon tomato paste",
+                "3 cloves garlic, minced",
+                "2 teaspoons chopped fresh thyme leaves",
+                "3 tablespoons all-purpose flour",
+                "1 3/4 cups chicken broth",
+                "1/4 cup dry white wine",
+                "1/2 cup half and half",
+                "1 bunch kale, stems removed and leaves torn into bite-sized pieces",
+                "1/2 cup freshly grated Parmesan, about 2 ounces"
+            ],
+            "directions": [
+                "Preheat oven to 400 degrees F.",
+                "In a large pot of boiling salted water, cook gnocchi according to package instructions; drain well.",
+                "Season chicken with 3/4 teaspoon salt and 1/2 teaspoon pepper.",
+                "Melt 2 tablespoons butter in a large skillet over medium heat.",
+                "Working in batches, add chicken to the skillet in a single layer and cook until golden brown and cooked through, reaching an internal temperature of 165 degrees F, about 4-5 minutes per side; set aside.",
+                "Melt remaining 1 tablespoon butter. Add shallot, and cook, stirring frequently, until tender, about 3-5 minutes. Stir in sun dried tomatoes, tomato paste, garlic and thyme, until fragrant, about 1 minute.",
+                "Whisk in flour until lightly browned, about 1 minute.",
+                "Gradually whisk in chicken broth and wine, and cook, whisking constantly, until slightly thickened, about 3-5 minutes. Stir in half and half until thickened, about 1-2 minutes; season with salt and pepper, to taste.",
+                "Stir in gnocchi and kale until the kale has wilted, about 1-2 minutes. Return chicken to the skillet; sprinkle with Parmesan.",
+                "Place into oven and bake until bubbly, about 10-12 minutes.",
+                "Serve immediately."
+            ]
         },
         {
-            "name": "",
-            "category": "christmas"
+            "name": "homestyle chicken noodle soup",
+            "category": "soup",
+            "image": "files/homestyle-chicken-noodle-soup.jpg",
+            "yield": "6-8 servings",
+            "prepTime": "20 minutes",
+            "totalTime": "1 hour 10 minutes",
+            "ingredients": [
+                "2 tablespoons unsalted butter",
+                "1 onion, diced",
+                "2 carrots, peeled and diced",
+                "2 celery ribs, diced",
+                "3 cloves garlic, minced",
+                "8 cups chicken stock",
+                "2 bay leaves",
+                "Kosher salt freshly ground black pepper, to taste",
+                "2 1/2 pounds bone-in, skinless chicken breasts",
+                "2 1/2 cups wide egg noodles",
+                "2 tablespoons chopped fresh parsley leaves",
+                "2 tablespoons chopped fresh dill",
+                "1 tablespoon freshly squeezed lemon juice, or more, to taste"
+            ],
+            "directions": [
+                "Melt butter in a large stockpot or Dutch oven over medium heat. Add onion, carrots and celery. Cook, stirring occasionally, until tender, about 3-4 minutes. Stir in garlic until fragrant, about 1 minute.",
+                "Whisk in chicken stock and bay leaves; season with salt and pepper, to taste. Add chicken and bring to boil; reduce heat and simmer, covered, until the chicken is cooked through, about 30-40 minutes. Remove chicken and let cool before dicing into bite-size pieces, discarding bones.",
+                "Stir in chicken and pasta and cook until tender, about 6-7 minutes.",
+                "Remove from heat; stir in parsley, dill and lemon juice; season with salt and pepper, to taste.",
+                "Serve immediately."
+            ]
         },
         {
-            "name": "",
-            "category": "drink"
-        },
-        {
-            "name": "",
-            "category": "freezer friendly"
-        },
-        {
-            "name": "",
-            "category": "healthy"
-        },
-        {
-            "name": "",
-            "category": "pasta"
-        },
-        {
-            "name": "",
-            "category": "salad"
-        },
-        {
-            "name": "",
-            "category": "side dish"
-        },
-        {
-            "name": "",
-            "category": "soup"
-        },
-        {
-            "name": "",
-            "category": "vegetarian"
+            "name": "honey mustard chicken salad",
+            "category": "salad",
+            "image": "files/honey-mustard-chicken-salad.jpg",
+            "yield": "4 servings",
+            "prepTime": "2 hours 15 minutes",
+            "totalTime": "2 hour 35 minutes",
+            "ingredients": [
+                "1/3 cup whole grain Dijon mustard",
+                "2 green onions, thinly sliced",
+                "3 tablespoons extra virgin olive oil",
+                "1 1/2 tablespoons honey",
+                "1 tablespoon white balsamic vinegar",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "1 pound boneless, skinless chicken thighs",
+                "1 tablespoon canola oil",
+                "4 slices bacon, diced",
+                "1 head romaine, roughly chopped",
+                "1 1/2 cups quartered strawberries",
+                "1 avocado, halved, seeded, peeled and sliced",
+                "1 cup corn kernels, canned or roasted"
+            ],
+            "directions": [
+                "In a medium bowl, whisk together Dijon, green onions, olive oil, honey and vinegar; season with salt and pepper, to taste; set aside 1/3 of the mixture. Place remaining 2/3 of the mixture in the refrigerator until ready to serve.",
+                "In a gallon size Ziploc bag or large bowl, combine chicken and reserved Dijon mixture; marinate for at least 2 hours to 6 hours, turning the bag occasionally. Drain the chicken from the marinade.",
+                "Preheat grill to medium heat.",
+                "Brush chicken with canola oil; season with salt and pepper, to taste. Add chicken to grill, and cook, turning occasionally, until chicken is completely cooked through, reaching an internal temperature of 165 degrees F, about 10 minutes.",
+                "Heat a large skillet over medium high heat. Add bacon and cook until brown and crispy, about 6-8 minutes. Drain excess fat; transfer bacon to a paper towel-lined plate.",
+                "To assemble the salad, place romaine lettuce in a large bowl; top with chicken, bacon, strawberries, avocado and corn. Pour the Dijon dressing on top of the salad and gently toss to combine.",
+                "Serve immediately."
+            ]
         }
     ]
 }

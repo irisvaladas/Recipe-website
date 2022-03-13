@@ -477,26 +477,47 @@ button:hover {
 
 /* home page */
 
-h5 {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-}
-
 .flex-New-Recipes {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding:30px
 }
 
-.flex-New-Recipes > div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 20px;
-  display: inline;
+#newRecipes {
+  padding:10px;
+  font-weight: bold;
+  
 }
+
+#recipeHome {
+  min-height: 480px;
+  filter: opacity(100%);
+  transition: filter 0.2s ease-in-out;
+  margin: 0px 20px 20px 20px;
+  box-shadow: 0px 4px 4px rgba(146, 146, 146, 0.25);
+}
+
+#recipeHome:hover {
+  filter: opacity(50%);
+}
+
+#recSubmitHome {
+  padding-top: 415px;
+  width: 280px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-size: 280px 400px;
+  white-space: normal;
+}
+
 
 .About-us {
   display: flex;
