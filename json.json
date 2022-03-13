@@ -1,0 +1,243 @@
+{
+    "meals": [
+        {
+            "name": "easy skillet dinner rolls",
+            "category": "appetizer",
+            "image": "files/easy-skillet-dinner-rolls.jpg",
+            "yield": "10 servings",
+            "prepTime": "25 minutes",
+            "totalTime": "3 hours 25 minutes",
+            "ingredients": [
+                "3/4 cup whole milk (105-110 degrees F)",
+                "1 1/2 teaspoons active dry yeast",
+                "2 tablespoons sugar, divided",
+                "1/3 cup unsalted butter, at room temperature",
+                "2 tablespoons chopped fresh rosemary, divided",
+                "1/2 teaspoon kosher salt",
+                "1 large egg, at room temperature",
+                "2 3/4 cups all-purpose flour, divided",
+                "1 tablespoon unsalted butter, melted"
+            ],
+            "directions": [
+                "Combine milk, yeast and 1 tablespoon sugar in a small bowl; let stand until foamy, about 5 minutes.",
+                "In the bowl of an electric mixer fitted with paddle attachment, beat butter, 1 tablespoon rosemary, salt and remaining 1 tablespoon sugar on medium speed until light and fluffy, about 2 minutes. Beat in egg until well combined. Beat in yeast mixture and 1 1/2 cups flour until a smooth batter forms.",
+                "Using the dough hook, gradually add remaining 1 1/4 cups flour, 1/2 cup at a time, until a soft, smooth ball of dough is formed. The dough should feel elastic and slightly tacky to the touch. Increase speed to medium-high and beat for 3 minutes.",
+                "Lightly oil a large bowl or coat with nonstick spray; place dough in bowl, turning to coat. Cover with a clean dishtowel and let stand in a warm spot until dough has doubled in size, about 30 to 45 minutes.",
+                "Gently deflate dough by punching down. Roll into a 10-inch rope; cut into 10 1-inch pieces, pressing each piece into a disk, then shaping into a ball.",
+                "Lightly oil a 10-inch cast iron skillet or coat with nonstick spray. Place dough balls into the prepared skillet; brush tops with melted butter and sprinkle with remaining 1 tablespoon rosemary. Cover with a clean dishtowel and let stand in a warm spot until dough has doubled in size, about 30-45 minutes.",
+                "Preheat oven to 375 degrees F. Place into oven and bake until golden brown, about 20-24 minutes.",
+                "Serve warm."
+            ]
+        },
+        {
+            "name": "instant pot chicken nachos",
+            "category": "appetizer",
+            "image": "files/instant-pot-chicken-nachos.jpg",
+            "yield": "8 servings",
+            "prepTime": "20 minutes",
+            "totalTime": "1 hour 20 minutes",
+            "ingredients": [
+                "2 boneless, skinless chicken breasts",
+                "4 boneless, skinless chicken thighs",
+                "1 cup salsa, homemade or store-bought",
+                "1/2 cup chicken stock",
+                "1 teaspoon chili powder",
+                "1/2 teaspoon ground cumin",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "12 ounces tortilla chips",
+                "3/4 cup pico de gallo, homemade or store-bought",
+                "2 cups shredded cheddar cheese",
+                "1 cup guacamole",
+                "1/2 cup sour cream",
+                "2 tablespoons chopped fresh cilantro leaves"
+            ],
+            "directions": [
+                "Add chicken, salsa, chicken stock, chili powder and cumin to a 6-qt Instant Pot® and gently toss to combine; season with salt and pepper, to taste.",
+                "Select manual setting; adjust pressure to high, and set time for 10 minutes. When finished cooking, quick-release pressure according to manufacturer’s directions.",
+                "Remove chicken from the Instant Pot® and shred using two forks; season with salt and pepper, to taste, if needed.",
+                "Preheat oven to 400 degrees F. Lightly oil a baking sheet or coat with nonstick spray.",
+                "Place tortilla chips in a single layer onto the prepared baking sheet. Top with 2 cups shredded chicken (reserve remaining chicken for later use), pico de gallo and cheese.",
+                "Place into oven and bake until heated through and the cheeses have melted, about 10-12 minutes.",
+                "Serve immediately, topped with guacamole, sour cream and cilantro."
+            ]
+        },
+        {
+            "name": "honey lime shrimp",
+            "category": "appetizer",
+            "image": "files/honey-lime-shrimp.jpg",
+            "yield": "4 servings",
+            "prepTime": "10 minutes",
+            "totalTime": "20 minutes",
+            "ingredients": [
+                "8 tablespoons unsalted butter, cubed and divided",
+                "4 cloves garlic, minced",
+                "1 medium shallot, minced",
+                "1 1/2 teaspoons chili powder",
+                "1/2 teaspoon smoked paprika",
+                "1 pound medium shrimp, peeled and deveined",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "1/3 cup vegetable or chicken stock",
+                "2 tablespoons honey",
+                "1 tablespoon freshly squeezed lime juice",
+                "2 teaspoons lime zest",
+                "2 tablespoons chopped fresh cilantro leaves"
+            ],
+            "directions": [
+                "Melt 6 tablespoons butter in a large skillet over medium heat.",
+                "Add garlic and shallot, and cook, stirring frequently, until fragrant, about 1 minute. Stir in chili powder and paprika.",
+                "Add shrimp; season with salt and pepper, to taste. Cook, stirring occasionally, until pink and cooked through, about 3-4 minutes.",
+                "Stir in vegetable or chicken stock, honey, lime juice and lime zest, scraping any browned bits from the bottom of the skillet.",
+                "Remove from heat; stir in cilantro and remaining 2 tablespoons butter until melted.",
+                "Serve immediately."
+            ]
+        },
+        {
+            "name": "the best classic deviled eggs",
+            "category": "appetizer",
+            "image": "files/the-best-classic-deviled-eggs.jpg",
+            "yield": "12 servings",
+            "prepTime": "10 minutes",
+            "totalTime": "40 minutes",
+            "ingredients": [
+                "12 large eggs",
+                "½ cup mayonnaise",
+                "2 tablespoons dill pickle relish",
+                "1 tablespoon Dijon mustard",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "2 tablespoons chopped fresh chives",
+                "¼ teaspoon paprika"
+            ],
+            "directions": [
+                "Place eggs in a large saucepan and cover with cold water by 1 inch. Bring to a boil and cook for 1 minute. Cover eggs with a tight-fitting lid and remove from heat; set aside for 8-10 minutes.",
+                "Drain well and let cool before peeling and cutting the eggs in half lengthwise, reserving the yolks.",
+                "In a small bowl, mash the yolks with a fork until chunky. Stir in mayonnaise, relish and Dijon; season with salt and pepper, to taste.",
+                "Use a pastry bag to pipe into the eggs, garnished with chives and paprika, if desired."
+            ]
+        },
+        {
+            "name": "garlic butter clams",
+            "category": "appetizer",
+            "image": "files/garlic-butter-clams.jpg",
+            "yield": "4 servings",
+            "prepTime": "30 minutes",
+            "totalTime": "50 minutes",
+            "ingredients": [
+                "3 pounds little neck clams",
+                "3 tablespoons unsalted butter",
+                "3 cloves garlic, minced",
+                "2 medium shallots, diced",
+                "Pinch of crushed red pepper flakes, optional",
+                "1 cup chicken stock",
+                "3/4 cup dry white wine",
+                "1/2 cup heavy cream",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "2 tablespoons chopped fresh parsley leaves",
+                "2 tablespoons chopped fresh chives"
+            ],
+            "directions": [
+                "Soak clams in cold water for at least 30 minutes; drain well.",
+                "Melt butter in a large stockpot or Dutch oven over medium heat. Add garlic, shallots and red pepper flakes, and cook, stirring frequently, until fragrant, about 2 minutes.",
+                "Stir in chicken stock and wine. Bring to a boil; reduce heat and simmer until slightly reduced, about 1-2 minutes.",
+                "Stir in clams. Reduce heat to low; cover, with a tight-fitting lid, and cook until the clams have opened, stirring once, about 8-10 minutes. Discard any unopened clams.",
+                "Remove from heat; stir in heavy cream and season with salt and pepper, to taste.",
+                "Serve immediately, garnished with parsley and chives, if desired."
+            ]
+        },
+        {
+            "name": "breakfast salad",
+            "category": "breakfast",
+            "image": "files/breakfast-salad.jpg",
+            "yield": "4 servings",
+            "prepTime": "20 minutes",
+            "totalTime": "40 minutes",
+            "ingredients": [
+                "8 slices bacon",
+                "1 1/4 pounds baby gold potatoes, halved",
+                "1 bunch arugula, washed, dried, and torn",
+                "8 soft boiled eggs, halved",
+                "1 avocado, halved, seeded, peeled and sliced",
+                "1/4 cup shaved Parmesa",
+                "1/3 cup extra virgin olive oil",
+                "2 1/2 tablespoons white wine vinegar",
+                "1 tablespoon whole grain mustard",
+                "1 small shallot, diced",
+                "Kosher salt and freshly ground black pepper, to taste"
+            ],
+            "directions": [
+                "FOR THE MUSTARD VINAIGRETTE: In a medium bowl, whisk together olive oil, vinegar, mustard and shallot; season with salt and pepper, to taste. Set aside.",
+                "Heat a large skillet over medium high heat. Add bacon and cook until brown and crispy, about 6-8 minutes. Drain excess fat; transfer bacon to a paper towel-lined plate.",
+                "Place potatoes in a large saucepan and cover with cold salted water by 1 inch. Bring to a boil and simmer until just tender, about 7-10 minutes; drain well.",
+                "To assemble the salad, place arugula in a large bowl; top with bacon, potatoes, eggs, avocado and Parmesan. Pour the MUSTARD VINAIGRETTE on top of the salad and gently toss to combine."
+            ]
+        },
+        {
+            "name": "pumpkin chocolate chip pancakes",
+            "category": "breakfast",
+            "image": "files/breakfast-salad.jpg",
+            "yield": "4 servings",
+            "prepTime": "15 minutes",
+            "totalTime": "30 minutes",
+            "ingredients": [
+                "1 3/4 cups all-purpose flour",
+                "3/4 cups semisweet chocolate chips",
+                "2 teaspoons brown sugar",
+                "1 1/2 teaspoons baking powder",
+                "1 teaspoon baking soda",
+                "1 teaspoon kosher salt",
+                "3/4 teaspoon ground cinnamon",
+                "1 1/4 cups buttermilk",
+                "1 cup canned pumpkin puree",
+                "2 large eggs",
+                "1/4 cup unsalted butter, melted",
+                "1/4 cup maple syrup"
+            ],
+            "directions": [
+                "In a large bowl, combine flour, chocolate chips, brown sugar, baking powder, baking soda and salt and cinnamon.",
+                "In a large glass measuring cup or another bowl, whisk together buttermilk, pumpkin, eggs and melted butter. Pour mixture over dry ingredients and stir using a rubber spatula just until moist.",
+                "Lightly coat a griddle or nonstick skillet with cold butter.",
+                "Working in batches, scoop 1/4 cup batter for each pancake. Cook until bubbles appear on top and underside is nicely browned, about 2 minutes. Flip and cook pancakes on the other side, about 1-2 minutes longer.",
+                "Serve immediately with maple syrup."
+            ]
+        },
+        {
+            "name": "",
+            "category": "dessert"
+        },
+        {
+            "name": "",
+            "category": "christmas"
+        },
+        {
+            "name": "",
+            "category": "drink"
+        },
+        {
+            "name": "",
+            "category": "freezer friendly"
+        },
+        {
+            "name": "",
+            "category": "healthy"
+        },
+        {
+            "name": "",
+            "category": "pasta"
+        },
+        {
+            "name": "",
+            "category": "salad"
+        },
+        {
+            "name": "",
+            "category": "side dish"
+        },
+        {
+            "name": "",
+            "category": "soup"
+        },
+        {
+            "name": "",
+            "category": "vegetarian"
+        }
+    ]
+}

@@ -1,18 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!-- The HEAD is where the "thinking" information of a page lives -->
-    <!-- Its where we inject exteneral sources needed for our page to work properly -->
-    <!-- We can link CSS, Javascript, fonts and so much more -->
-
-    <!-- The title is the text displayed on our browser tab -->
-    <title>Nom + Nice</title>
-    <link rel="icon" type="image/x-icon" href="files/favicon.png" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nav bar</title>
-    <link rel=" stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -23,8 +16,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
 
+  </head>
   <body>
     <header>
       <a href="index.html" ><img class="logo" src="files\logo.png" alt="logo"></img></a>
@@ -83,54 +76,11 @@
         <img src="files/menu-icon.png">
       </div>
     </header>
-    <main>
-      <!-- wrapper for main content -->
-     
-        <h3>New Recipes</h3>
-        <div class="flex-New-Recipes">
-          <!-- insert 3 images and recipe names -->
-          <div>
-              <img class="item" src="./files/Sun-Dried-Tomato-Chicken-and-GnocchiIMG_1708-360x540.jpeg" width="360">
-              <h5> <span>Sun Dried Tomato Chicken and Gnocchi</span></h5>
-              <!-- insert hyperlink to recipe page --></div>
-
-              <div>
-              <img class="item" src="./files/Homestyle-Chicken-Noodle-SoupIMG_9867-2-360x540.jpeg" width="360">
-              <h5> <span>Homestyle Chicken Noodle Soup</span></h5>
-              <!-- insert hyperlink to recipe page --></div>
-
-              <div>
-              <img class="item" src="./files/Honey-Mustard-Chicken-SaladIMG_8674-360x540.jpeg" width="360">
-              <h5> <span>Honey Mustard Chicken Salad</span></h5>
-              <!-- insert hyperlink to recipe page --></div>
-          </div>
-
-      <div class="About-us">
-        <!-- insert header, text and image -->
-        <h3>Hey! I'm Chungah</h3>
-        &nbsp
-        <img src="./files/Chungah.jpeg" width="360">
-        &nbsp
-        <p>Come join me in my culinary adventures where we'll be using simple, fresh ingredients and transforming them into sophisticated and elegant meals for the everyday home cook.</p>
-        <!-- insert header, text and image -->
+    <div id="recipeOutDiv">
+      <div id="recipeDiv">
+        <p id="invalidCriteria">Sorry, no content matched your criteria.</p>
       </div>
-
-        <h3>Featured Video</h3>
-        &nbsp
-        <h5>Chicken Noodle Soup</h5>
-        &nbsp
-        <div class="Featured-video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/9c-GftcmgLs"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </main>
+    </div>
     <!-- FOOTER -->
 
     <footer class="sticky footer">
@@ -162,6 +112,15 @@
       </p>
       </section>
     <script>
+      let file = "files/";
+      let jpg = ".jpg";
+
+      const queryString = window.location.search;
+      const query = queryString.substring(8);
+      const queryWithoutPlus = query.replace(/[^a-zA-Z ]/g, " ").toLowerCase();
+
+      console.log(queryWithoutPlus);
+
       const categories = [
         "appetizer",
         "bread",
@@ -195,6 +154,37 @@
       }
       document.getElementById("dropdown-content").innerHTML = category;
       document.getElementById("dropdown-content2").innerHTML = category;
+      fetch("json.json")
+        .then((response) => response.json())
+        .then((data) => {
+          let recipe = "";
+          let invalidRecipe = "";
+          for (var i = 0; i < data.meals.length; i++) {
+            let ingr = data.meals[i].ingredients;
+
+            for (var j = 0; j < ingr.length; j++) {
+              const ingredient = ingr[j];
+
+              if (ingredient.includes(`${queryWithoutPlus}`) === true) {
+                console.log(data.meals[i]);
+                const recipesImg = data.meals[i].name.split(" ").join("-");
+
+                recipe =
+                  recipe +
+                  `
+                  <div id="recipe" >
+      <form id="form" action="directions.html" method="GET" >
+            <input style="background-image: url(${file}${recipesImg}${jpg}); background-repeat: no-repeat;
+  ;" id="recSubmit" type="submit" name="recipe" value="${data.meals[i].name}"/>
+            </form>
+      </div>
+                `;
+                document.querySelector("#recipeDiv").innerHTML = recipe;
+                break;
+              }
+            }
+          }
+        });
     </script>
   </body>
 </html>

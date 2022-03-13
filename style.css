@@ -1,0 +1,804 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/*here goes the style for the Navigation Bar*/
+
+#nav {
+  flex-grow: 2;
+  min-width: 200px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+#searchDiv {
+  border-style: hidden;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  box-shadow: 0px 4px 4px rgba(146, 146, 146, 0.25);
+  transition: box-shadow 0.2s ease-in-out;
+  flex-grow: 3;
+}
+#searchDiv:hover {
+  box-shadow: 0px 4px 4px rgba(119, 119, 119, 0.349);
+  transition: box-shadow 0.2s ease-in-out;
+}
+.searchInput {
+  border-style: hidden;
+  width: 100%;
+  border-radius: 10px;
+  height: 80%;
+  margin-left: 10px;
+}
+.searchInput:focus {
+  outline: none;
+}
+#searchSubmit {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.39);
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+#searchSubmit:hover {
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+#searchSubmit:active {
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.1s ease-in-out;
+}
+#searchIcon {
+  position: absolute;
+  width: 25px;
+  background-color: rgba(255, 255, 255, 0.973);
+  border-radius: 10px;
+}
+#outDivSubmit {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+#shortNav {
+  display: none;
+}
+
+li,
+a,
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #00080a;
+  text-decoration: bold;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
+}
+.logo {
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 150px;
+  padding: 10px;
+}
+.nav_links {
+  list-style: none;
+  margin-left: 50px;
+  display: flex;
+}
+.nav_links li {
+  justify-content: space-around;
+  padding: 0px 20px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  font-weight: 600;
+}
+.nav_links li a:hover {
+  color: #0088a9;
+}
+.social_icons {
+  list-style: none;
+}
+.social_icons li a {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/*here finishes the style for the Navigation Bar*/
+
+/*here starts the style for the category div on the category.html*/
+
+#categoryDiv {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px 50px 0px;
+}
+
+#category {
+  min-height: 420px;
+  filter: opacity(100%);
+  transition: filter 0.2s ease-in-out;
+  margin: 0px 20px 20px 20px;
+  box-shadow: 0px 4px 4px rgba(146, 146, 146, 0.25);
+}
+
+#category:hover {
+  filter: opacity(50%);
+}
+
+#form {
+  width: 100%;
+  height: 100%;
+}
+
+#catSubmit {
+  padding-top: 360px;
+  width: 220px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  background-size: 240px 360px;
+}
+
+#catSubmit:first-letter {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+/*here starts the style for the recipes div on the FilteredRecipies.html*/
+
+#recipeDiv {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px 50px 0px;
+}
+
+#recipe {
+  min-height: 420px;
+  filter: opacity(100%);
+  transition: filter 0.2s ease-in-out;
+  margin: 0px 20px 20px 20px;
+  box-shadow: 0px 4px 4px rgba(146, 146, 146, 0.25);
+}
+
+#recipe:hover {
+  filter: opacity(50%);
+}
+
+#form {
+  width: 100%;
+  height: 100%;
+}
+
+#recSubmit {
+  padding-top: 360px;
+  width: 220px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-size: 240px 360px;
+  white-space: normal;
+}
+
+#recSubmit:first-letter {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+#invalidCriteria {
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*here starts the style for the recipes div on the directions.html*/
+
+/*here starts the style for the recipes header div on the directions.html*/
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-between;
+}
+
+#header h2 {
+  margin: 50px;
+}
+
+#header h2:first-letter {
+  text-transform: uppercase;
+}
+
+#prepInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.prepDivs {
+  display: flex;
+  justify-content: space-between;
+  margin:10px
+}
+
+.prepImg {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.prepImg img {
+  width: 30px;
+}
+
+#imageDisplay {
+  width: 50%;
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#imageDisplay img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*here starts the style for the ingredients div on the directions.html*/
+
+#instructions {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px 100px 50px 100px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ingredientsDiv {
+  max-width: 400px;
+  padding: 0px 30px 0px 30px;
+}
+
+#ingredientsDiv h4 {
+  margin: 10px 0px 50px 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#directionsDiv {
+  max-width: 600px;
+  padding: 0px 30px 0px 30px;
+}
+
+#directionsDiv h4 {
+  margin: 30px 0px 50px 0px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#ingredients li {
+  margin: 20px;
+}
+
+#directions li {
+  margin-bottom: 20px;
+  display:block;
+}
+
+#directions li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  font-weight: 800;
+  font-size:25px;
+}
+
+#directions {
+  counter-reset: item;
+}
+
+/* dropdown menu */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+  margin: 0 -50px;
+  top: 100%;
+}
+
+#dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover #dropdown-content {
+  display: block;
+}
+
+.dropdownSubmit {
+  border-style: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdownSubmit:hover {
+  background-color: #00080a;
+  color: white;
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* here starts the style for the contact page */
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px 50px;
+  width: 60%;
+}
+
+#my-form {
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+}
+
+.form-group {
+  margin: 20px 0px;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.form-group input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  margin: 5px 0px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  margin: 5px 0px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  background-color: rgb(25, 136, 3);
+  color: white;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: rgb(15, 88, 1);
+  cursor: pointer;
+}
+
+.form-group label {
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: 700;
+  color: #353535;
+}
+
+#status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  text-align: center;
+}
+
+/* home page */
+
+h5 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.flex-New-Recipes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-New-Recipes > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  display: inline;
+}
+
+.About-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.Featured-video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* media query */
+
+@media only screen and (max-width: 965px) {
+  .logo {
+    margin: 0;
+    width: 100px;
+  }
+  #bigNav {
+    display: none;
+  }
+  #shortNav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+  }
+
+  #shortNav img {
+    width: 30px;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .nav_links_short {
+    list-style: none;
+    margin-left: 50px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+
+    z-index: 1;
+    padding: 10px;
+    height: 100vh;
+  }
+  .nav_links_short li {
+    justify-content: space-around;
+    display: flex;
+    text-align: right;
+    margin: 20px 0px;
+  }
+  .nav_links_short li a {
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    width: 100%;
+  }
+  .nav_links_short li a:hover {
+    background-color: #00080a;
+    color: white;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .social_icons {
+    list-style: none;
+  }
+  .social_icons li a {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  #dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+    padding: 10px;
+    margin: 0 -50px;
+    right: 120%;
+    top: -220%;
+    height: 100vh;
+  }
+
+  #dropdown-content2 a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover #dropdown-content2 {
+    display: block;
+  }
+
+  .dropdownSubmit {
+    border-style: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    cursor: pointer;
+    margin: 5px;
+    text-align: right;
+  }
+
+  .dropdownSubmit:hover {
+    background-color: #00080a;
+    color: white;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #shortNav:hover .nav_links_short {
+    display: block;
+  }
+
+  #searchDiv {
+    max-width: 70%;
+  }
+  #category {
+    min-height: 320px;
+  }
+
+  #catSubmit {
+    padding-top: 270px;
+    width: 180px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    background-size: 180px 270px;
+  }
+
+  #recSubmit {
+    padding-top: 270px;
+    width: 180px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    background-size: 180px 270px;
+  }
+
+  #recipe {
+    min-height: 320px;
+  }
+
+  #directionsDiv {
+    margin:0px;
+  }
+
+  #instructions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 50px 50px 50px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  #info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #header h2 {
+    margin: 20px;
+    text-align: center;
+    font-size:20px
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .prepImg img {
+    width: 20px;
+  }
+
+  .prepDivs {
+    flex-direction: column;
+    align-items: center;
+    width:100px;
+  }
+
+  .prepDivs p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .prepDivs h6 {
+    text-align: center;
+  }
+
+  #prepInfo {
+    margin:0px 20px;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  #imageDisplay {
+    width:100%;
+    height:300px;
+  }
+
+  .container {
+    width: 70%;
+  }
+}
+/* footer*/
+
+.footer {
+  padding: 40px 0;
+  background-color: rgb(239, 245, 245);
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
+}
+.footer .social a {
+  font-size: 24px;
+  color: inhert;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.footer .social a:hover {
+  opacity: 0.9;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.footer ul li a {
+  color: inhert;
+  text-decoration: none;
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.footer ul li a {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.sticky-footer {
+  position: sticky;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}

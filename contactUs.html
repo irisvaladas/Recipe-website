@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- SOCIAL ICONS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  <header>
+    <a href="index.html" ><img class="logo" src="files\logo.png" alt="logo"></img></a>
+    <div id="nav">
+      <form id="searchDiv" action="search.html" method="GET">
+        <input
+          class="searchInput"
+          placeholder="Search recipes by ingredient"
+          type="text"
+          name="search"
+          value=""
+        />
+        <div id="outDivSubmit">
+          <img id="searchIcon" src="files/search.png" /><input
+            id="searchSubmit"
+            type="submit"
+            value=""
+          /><img />
+        </div>
+      </form>
+    </div>
+    <div id="bigNav">
+      <ul class="nav_links">
+        <li><a href="index.html">Home</a></li>
+        
+        <li class="dropdown">
+          <a href="categories.html">Recipes</a>
+          <div id="dropdown-content">
+            
+          </div>
+        </li>
+        
+        <li><a href="contactUs.html">Contact us</a></li>
+        <li><a href="https://www.facebook.com/FoodNetworkUK/" target="_blank" class="fa fa-facebook"></a></li>
+        <li><a href="https://twitter.com/foodnetwork_uk" target="_blank" class="fa fa-twitter"></a></li>
+        <li><a href="https://www.instagram.com/foodnetwork/" target="_blank" class="fa fa-instagram"></a></li>
+      </ul>
+    </div>
+    <div id="shortNav" >
+     
+      <ul class="nav_links_short">
+        <li><a href="index.html">Home</a></li>
+        
+        <li class="dropdown">
+          <a href="categories.html">Recipes</a>
+          <div id="dropdown-content2">
+            
+          </div>
+        </li>
+        
+        <li><a href="contactUs.html">Contact us</a></li>
+        <li><a href="https://www.facebook.com/FoodNetworkUK/" target="_blank" class="fa fa-facebook"></a></li>
+        <li><a href="https://twitter.com/foodnetwork_uk" target="_blank" class="fa fa-twitter"></a></li>
+        <li><a href="https://www.instagram.com/foodnetwork/" target="_blank" class="fa fa-instagram"></a></li>
+      </ul>
+      <img src="files/menu-icon.png">
+    </div>
+  </header>
+  <section>
+        <div class="container">
+            <form action="https://formspree.io/f/mdobzoyy" method="POST" id="my-form">
+
+                <div class="form-group">
+                    <label for="Firstname"> Name</label>
+                    <input type="text" id="FirstName" name="firstName">
+                </div>
+
+            <div class="form-group">
+                <label for="LastName"> Subject</label>
+                <input type="text" id="LastName" name="lastname">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message"> Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+
+<button type="submit">Send</button>
+<div id="status"></div>
+</form>
+</div>
+    </section>
+    <!-- FOOTER -->
+
+    <footer class="sticky footer">
+      <section class = "footer">
+          <div class="social">
+            <a href="https://www.facebook.com/FoodNetworkUK/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/foodnetwork_uk" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/foodnetwork/" target="_blank" class="fa fa-instagram"></a>
+          </div>
+          <ul class = "list">
+              <li>
+                  <a href="index.html"> Home</a>
+              </li>
+              <li>
+                  <a href="categories.html"> Recipes</a>
+              </li>
+              <li>
+                  <a href="contactUs.html"> Contact us </a>
+              </li>
+              <li>
+                  <a href="#"> Terms & conditions </a>
+              </li>
+              <li>
+                  <a href="#"> Privacy policy</a>
+              </li>
+          </ul>
+          <p class="copyright">
+              Code Crew @ 2022
+      </p>
+      </section>
+    <script>
+        const categories = [
+        "appetizer",
+        "bread",
+        "quick and easy",
+        "breakfast",
+        "chicken",
+        "dessert",
+        "christmas",
+        "drink",
+        "freezer friendly",
+        "healthy",
+        "pasta",
+        "salad",
+        "side dish",
+        "soup",
+        "vegetarian",
+      ];
+      let category = "";
+      for (var i = 0; i < categories.length; i++) {
+        console.log(categories[i]);
+        const categoriesImg = categories[i].split(" ").join("-");
+        category =
+          category +
+          `
+          <form action="filteredRecipes.html" method="GET" >
+            <input class="dropdownSubmit" type="submit" name="category" value="${categories[i]}"/>
+          </form>
+      `;
+      }
+      document.getElementById("dropdown-content").innerHTML = category;
+      document.getElementById("dropdown-content2").innerHTML = category;
+        var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+    
+        if (response.ok) {
+          status.innerHTML = "Your message was sent, our team will be in contact with you shortly!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit) 
+    </script>
+</body>
+</html>
