@@ -479,16 +479,17 @@ button:hover {
 
 .flex-New-Recipes {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding:30px
+  padding:30px;
+  width: 100%;
 }
 
 #newRecipes {
   padding:10px;
   font-weight: bold;
-  
+
 }
 
 #recipeHome {
@@ -521,7 +522,7 @@ button:hover {
 
 .About-us {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   padding: 1em;
   margin: 10px;
@@ -529,12 +530,31 @@ button:hover {
   align-items: center;
 }
 
-.Featured-video {
+.About-us div {
+  max-width:500px;
+  padding:20px;
+
+}
+
+.featuredVideo {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin:30px
 }
+
+
+.featuredVideo iframe {
+  border: none;
+  margin:20px;
+}
+
+.featuredVideo div {
+  align-items: center;
+  justify-content: center;
+  margin:20px;
+}
+
 
 /* media query */
 
@@ -749,6 +769,44 @@ button:hover {
   .container {
     width: 70%;
   }
+  .flex-New-Recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    width: 100%;
+  }
+  
+  #newRecipes {
+    padding:10px;
+    font-weight: bold;
+  
+  }
+  
+  #recipeHome {
+    min-height: 320px;
+  }
+  
+  #recipeHome:hover {
+    filter: opacity(50%);
+  }
+  
+  #recSubmitHome {
+    padding-top: 275px;
+    width: 180px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    background-size: 180px 270px;
+    text-transform: uppercase;
+  }
+  
 }
 /* footer*/
 
