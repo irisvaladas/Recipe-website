@@ -298,6 +298,607 @@
                 "To assemble the salad, place romaine lettuce in a large bowl; top with chicken, bacon, strawberries, avocado and corn. Pour the Dijon dressing on top of the salad and gently toss to combine.",
                 "Serve immediately."
             ]
+        },
+        {
+            "name": "pull apart garlic bread wreath",
+            "category": "bread",
+            "image": "files/pull-apart-garlic-bread-wreath.jpg",
+            "yield": "8 servings",
+            "prepTime": "1 hour",
+            "totalTime": "1 hour 30 minutes",
+            "ingredients": [
+                "1 1/2 pounds pizza dough, homemade or store-bought",
+                "1/4 cup unsalted butter, melted",
+                "1 1/2 tablespoons chopped fresh parsley leaves",
+                "3 cloves garlic, minced",
+                "1/4 teaspoon kosher salt",
+                "2 tablespoons freshly grated Parmesan",
+                "1 cup marinara sauce"
+            ],
+            "directions": [
+                "Let dough stand at room temperature for 30 minutes up to 1 hour.",
+                "Preheat oven to 375 degrees F. Line a baking sheet with parchment paper.",
+                "Lightly oil the outside of a 6-ounce ramekin or coat with nonstick spray and place in the center of the prepared baking sheet. Fill with water.",
+                "Using a digital scale, cut dough into 1-ounce pieces, yielding 22-24 total pieces, pressing each piece into a disk, then shaping into a ball.",
+                "In a small bowl, combine butter, parsley, garlic and salt.",
+                "Place dough balls onto the prepared baking sheet in a circular pattern around the ramekin. Brush tops with butter mixture; sprinkle with Parmesan.",
+                "Place into oven and bake until golden brown, about 25-30 minutes. Working carefully, remove ramekin and discard water. Fill with marinara and return to the center of the baking sheet; brush tops with remaining butter mixture.",
+                "Serve immediately."
+            ]
+        },
+        {
+            "name": "no yeast bread",
+            "category": "bread",
+            "image": "files/no-yeast-bread.jpg",
+            "yield": "20 servings",
+            "prepTime": "1 hour",
+            "totalTime": "55 minutes",
+            "ingredients": [
+                "3 1/2 cups all-purpose flour*",
+                "2 tablespoons sugar",
+                "1 1/4 teaspoons kosher salt",
+                "1 1/4 teaspoons baking soda",
+                "1 1/2 cups buttermilk",
+                "1/4 cup unsalted butter, melted",
+                "1 tablespoon rolled oats"
+            ],
+            "directions": [
+                "Preheat oven to 375 degrees F. Place a 10-inch cast iron skillet or Dutch oven in the oven.",
+                "In a large bowl, combine flour, sugar, salt and baking soda.",
+                "In a large glass measuring cup or another bowl, whisk together buttermilk and butter. Pour mixture over dry ingredients and stir using a rubber spatula until a wet, sticky dough forms.",
+                "Working on a lightly floured surface, gently knead the dough a few times, shaping the dough into an 8-inch round, about 1-inch thick, adding additional flour as needed.",
+                "Place dough into the prepared skillet. Using a sharp knife or bread lame, cut a 1/2-inch deep X into the top of the bread; brush with additional buttermilk and sprinkle with rolled oats.",
+                "Place into oven and bake until golden brown and the bottom of the bread sounds hollow when tapped, about 35 minutes.",
+                "Serve warm."
+            ]
+        },
+        {
+            "name": "homemade hamburger buns",
+            "category": "bread",
+            "image": "files/homemade-hamburger-buns.jpg",
+            "yield": "8 servings",
+            "prepTime": "2 hours 20 minutes",
+            "totalTime": "2hours 40 minutes",
+            "ingredients": [
+                "3/4 cup warm water (100-110 degrees F)",
+                "3 tablespoons sugar",
+                "2 1/4 teaspoons active dry yeast",
+                "3 tablespoons unsalted butter, at room temperature",
+                "2 large eggs, at room temperature, divided",
+                "3 1/4 cups all purpose flour, divided",
+                "1 1/4 teaspoons kosher salt",
+                "2 tablespoons milk",
+                "1 tablespoon sesame seeds"
+            ],
+            "directions": [
+                "Combine water, sugar and yeast in a small bowl; let stand until foamy, about 5 minutes.",
+                "In the bowl of an electric mixer fitted with dough hook attachment, beat the water mixture, butter, 1 egg, 2 cups flour and salt on medium-low speed until a smooth batter forms, about 1-2 minutes.",
+                "Gradually add remaining 1 1/4 cups flour, 1/2 cup at a time, until a soft, smooth ball of dough is formed. The dough should feel elastic and slightly tacky to the touch. Increase speed to medium-high and beat for 3 minutes.",
+                "Lightly oil a large bowl or coat with nonstick spray; place dough in bowl, turning to coat. Cover with a clean dishtowel and let stand in a warm spot until dough has doubled in size, about 45 minutes to 1 hour.",
+                "Gently deflate dough by punching down. Working on a lightly floured surface, divide into 8 equal pieces, weighing the pieces as needed; shape each piece into a smooth ball.",
+                "Line a baking sheet with parchment paper. Place rolls onto the prepared baking sheet; flatten each ball to 3 inches. Cover with a clean dishtowel and let stand in a warm spot until dough has doubled in size, about 45 minutes to 1 hour.",
+                "Preheat oven to 375 degrees F.",
+                "In a small bowl, whisk together remaining egg and milk. Brush tops of dough with egg mixture; sprinkle with sesame seeds.",
+                "Place into oven and bake until golden brown, about 15-18 minutes."
+            ]
+        },
+        {
+            "name": "sourdough biscuits",
+            "category": "bread",
+            "image": "files/sourdough-biscuits.jpg",
+            "yield": "8-10 servings",
+            "prepTime": "30 minutes",
+            "totalTime": "50 minutes",
+            "ingredients": [
+                "2 cups all-purpose flour",
+                "2 teaspoons sugar",
+                "2 teaspoons baking powder",
+                "1 teaspoon kosher salt",
+                "3/4 teaspoon baking soda",
+                "1/2 cup unsalted butter, frozen",
+                "1 cup active sourdough starter",
+                "1/2 cup buttermilk"
+            ],
+            "directions": [
+                "Preheat oven to 450 degrees F. Line a baking sheet with parchment paper or a silicone baking mat.",
+                "In a large bowl, combine flour, sugar, baking powder, salt and baking soda.",
+                "Grate butter using the large holes of a box grater. Stir into the flour mixture.",
+                "In a medium bowl, whisk together sourdough starter and buttermilk. Add to the flour mixture and stir using a rubber spatula until a soft dough forms.",
+                "Working on a lightly floured surface, knead the dough 2-3 times until it comes together. Using a rolling pin, roll the dough into a 1 1/2-inch thick rectangle. Cut out 8-10 rounds using a 2-inch biscuit or cookie cutter.",
+                "Place biscuits onto the prepared baking sheet. Place into oven and bake for 14-18 minutes, or until golden brown.",
+                "Serve warm."
+            ]
+        },
+        {
+            "name": "buttermilk cornbread",
+            "category": "bread",
+            "image": "files/buttermilk-cornbread.jpg",
+            "yield": "8 servings",
+            "prepTime": "15 minutes",
+            "totalTime": "45 minutes",
+            "ingredients": [
+                "1 1/2 cups cornmeal",
+                "1 cup all-purpose flour",
+                "1/3 cup sugar",
+                "4 teaspoons baking powder",
+                "1 teaspoon kosher salt",
+                "2 cups reduced fat buttermilk",
+                "1 large egg",
+                "6 tablespoons unsalted butter, melted and divided"
+            ],
+            "directions": [
+                "Preheat oven to 425 degrees F. Place an oven-proof 10-inch cast iron skillet in the oven.",
+                "In a large bowl, combine cornmeal, flour, sugar, baking powder and salt.",
+                "In a large glass measuring cup or another bowl, whisk together buttermilk, egg and 3 tablespoons butter. Pour mixture over dry ingredients and stir using a rubber spatula just until moist.",
+                "Remove skillet from the oven and add remaining 3 tablespoons until heated through, about 1-2 minutes.",
+                "Working carefully, immediately scoop the batter into the hot skillet. Place into oven and bake for 25-30 minutes, or until a tester inserted in the center comes out clean. Let cool 5 minutes.",
+                "Serve warm."
+            ]
+        },
+        {
+            "name": "thai coconut curry ramen",
+            "category": "quick and easy",
+            "image": "files/thai-coconut-curry-ramen.jpg",
+            "yield": "4 servings",
+            "prepTime": "15 minutes",
+            "totalTime": "30 minutes",
+            "ingredients": [
+                "2 (3.5-ounce) packages instant ramen noodles, flavor packets discarded",
+                "1 1/2 tablespoons canola oil",
+                "2 medium shallots, diced",
+                "3 tablespoons red curry paste",
+                "2 tablespoons tomato paste",
+                "2 cloves garlic, minced",
+                "1 tablespoon freshly grated ginger",
+                "1 (13.5-ounce) can coconut milk",
+                "4 cups chicken stock",
+                "2 teaspoons toasted sesame oil",
+                "1 pound ground pork",
+                "2 cloves garlic, minced",
+                "1 fresno chili, seeded and minced",
+                "2 tablespoons fish sauce",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "4 soft boiled eggs, peeled and halved",
+                "1/2 cup fresh cilantro leaves",
+                "2 green onions, thinly sliced",
+                "1 tablespoon toasted sesame seeds"
+            ],
+            "directions": [
+                "In a large pot of boiling water, cook noodles until just tender, about 2-3 minutes. Rinse under cold water and drain; set aside.",
+                "Heat canola oil in a large stockpot or Dutch oven over medium heat. Add shallot, and cook, stirring frequently, until tender, about 3 minutes. Stir in curry paste, tomato paste, garlic and ginger until fragrant, about 2 minutes.",
+                "Stir in coconut milk and chicken stock. Bring to a boil; reduce heat, cover and simmer until flavors have blended, about 8-10 minutes.",
+                "Heat sesame oil in a large skillet over medium high heat. Add pork, garlic and fresno chili. Cook until pork has browned, about 3-5 minutes, making sure to crumble the pork as it cooks. Stir in fish sauce; season with salt and pepper, to taste.",
+                "Divide noodles and broth into bowls. Top with pork, soft boiled eggs, cilantro, green onions and sesame seeds."
+            ]
+        },
+        {
+            "name": "salmon with garlic cream sauce",
+            "category": "quick and easy",
+            "image": "files/salmon-with-garlic-cream-sauce.jpg",
+            "yield": "4 servings",
+            "prepTime": "15 minutes",
+            "totalTime": "30 minutes",
+            "ingredients": [
+                "4 (6-ounce) salmon fillets",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "1 1/2 tablespoons unsalted butter",
+                "2 cloves garlic, minced",
+                "1 medium shallot, diced",
+                "2 tablespoons all-purpose flour",
+                "1/4 cup dry white wine",
+                "3/4 cup chicken stock",
+                "3/4 cup half and half",
+                "3 cups baby spinach",
+                "2 tablespoons chopped fresh dill",
+                "1 lemon, cut in wedges"
+            ],
+            "directions": [
+                "Using paper towels, pat both sides of the salmon fillets dry; season with 1 teaspoon salt and 1/2 teaspoon pepper.",
+                "Melt butter in a large skillet over medium heat. Add salmon fillets to the skillet, skin side up, and cook until golden brown and a crust has formed, about 4-5 minutes. Using a fish turner, flip, and cook for an additional 4-5 minutes, or until desired doneness. Remove and keep warm.",
+                "Reduce heat to low; add garlic and shallots, and cook, stirring frequently, until fragrant, about 2 minutes.",
+                "Whisk in flour until lightly browned, about 1 minute.",
+                "Stir in wine, scraping any browned bits from the bottom of the skillet.",
+                "Stir in chicken stock and half and half until slightly thickened, about 2-3 minutes; season with salt and pepper, to taste.",
+                "Stir in spinach until wilted, about 1-2 minutes. Return salmon to the skillet; sprinkle with dill.",
+                "Serve immediately with lemon wedges."
+            ]
+        },
+        {
+            "name": "sheet pan shrimp tacos",
+            "category": "quick and easy",
+            "image": "files/sheet-pan-shrimp-tacos.jpg",
+            "yield": "6-8 servings",
+            "prepTime": "15 minutes",
+            "totalTime": "30 minutes",
+            "ingredients": [
+                "2 tablespoons unsalted butter, melted",
+                "3 cloves garlic, minced",
+                "1 tablespoon freshly squeezed lime juice",
+                "2 teaspoons chili powder",
+                "1 teaspoon smoked paprika",
+                "1 teaspoon ground cumin",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "2 pounds medium shrimp, peeled and deveined",
+                "3 tablespoons chopped fresh cilantro leaves",
+                "Tortillas (flour or corn)",
+                "Shredded cabbage",
+                "Sliced avocado",
+                "Sliced jalapeños",
+                "Crumbled queso fresca",
+                "Hot sauce"
+            ],
+            "directions": [
+                "Preheat oven to 400 degrees F. Lightly oil a baking sheet or coat with nonstick spray.",
+                "In a medium bowl, whisk together butter, garlic, lime juice, chili powder, paprika, cumin, 1 teaspoon salt, and 1/2 teaspoon pepper.",
+                "Place shrimp in a single layer onto the prepared baking sheet. Stir in butter mixture and gently toss to combine.",
+                "Place into oven and bake just until pink, firm and cooked through, about 8-10 minutes. Stir in cilantro.",
+                "Serve immediately in tortillas with desired toppings."
+            ]
+        },
+        {
+            "name": "best ever steak and eggs",
+            "category": "quick and easy",
+            "image": "files/best-ever-steak-and-eggs.jpg",
+            "yield": "4 servings",
+            "prepTime": "15 minutes",
+            "totalTime": "30 minutes",
+            "ingredients": [
+                "½ cup chopped fresh parsley leaves",
+                "½ cup chopped fresh basil",
+                "2 tablespoons chopped fresh chives",
+                "1 small shallot, diced",
+                "2 cloves garlic, minced",
+                "¼ teaspoon crushed red pepper flakes",
+                "⅓ cup extra virgin olive oil",
+                "1 tablespoon red wine vinegar",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "1 ½ pounds skirt steak",
+                "1 tablespoon canola oil",
+                "6 fried eggs"
+            ],
+            "directions": [
+                "In a medium bowl, combine parsley, basil, chives shallot, garlic and red pepper flakes. Whisk in olive oil and vinegar; season with salt and pepper, to taste.",
+                "Using paper towels, pat both sides of the steak dry; season with 1 teaspoon salt and 1/2 teaspoon pepper.",
+                "Heat a large cast iron skillet over medium high heat until very hot, about 1-2 minutes; add canola oil.",
+                "Place the steak in the middle of the skillet and cook until a dark crust has formed, about 4-5 minutes. Using tongs, flip, and cook for an additional 3-4 minutes, or until desired doneness. Let rest 5 minutes.",
+                "Thinly slice steak against the grain and serve with parsley mixture and eggs."
+            ]
+        },
+        {
+            "name": "vodka sauce",
+            "category": "quick and easy",
+            "image": "files/vodka-sauce.jpg",
+            "yield": "4 servings",
+            "prepTime": "10 minutes",
+            "totalTime": "30 minutes",
+            "ingredients": [
+                "8 ounces radiatore pasta",
+                "3 tablespoons unsalted butter",
+                "2 cloves garlic, minced",
+                "2 medium shallots, diced",
+                "1/4 cup tomato paste",
+                "1/4 teaspoon crushed red pepper flakes, or more, to taste",
+                "1/4 cup vodka",
+                "1 (14.5 ounce) can crushed tomatoes",
+                "1 teaspoon granulated sugar",
+                "1/2 cup heavy cream",
+                "1/3 cup freshly grated Parmesan",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "1/4 cup basil leaves, chiffonade"
+            ],
+            "directions": [
+                "In a large pot of boiling salted water, cook pasta according to package instructions; reserve 1 cup water and drain well.",
+                "Melt butter in a large skillet over medium low heat. Add garlic and shallots, and cook, stirring frequently, until tender, about 4-5 minutes.",
+                "Stir in tomato paste and red pepper flakes until fragrant, about 1 minute.",
+                "Working carefully, stir in vodka, scraping any browned bits from the bottom of the skillet.",
+                "Stir in crush tomatoes and sugar. Bring to a boil; reduce heat and simmer, stirring occasionally, until reduced and thickened, about 10 minutes.",
+                "Stir in heavy cream and Parmesan until smooth, about 2 minutes.",
+                "Stir in pasta, adding reserved pasta water as needed, 1 tablespoon at a time, until desired consistency is reached; season with salt and pepper, to taste.",
+                "Serve immediately, garnished with basil, if desired."
+            ]
+        },
+        {
+            "name": "homemade breakfast sausage",
+            "category": "breakfast",
+            "image": "files/homemade-breakfast-sausage.jpg",
+            "yield": "16 servings",
+            "prepTime": "20 minutes",
+            "totalTime": "30 minutes",
+            "ingredients": [
+                "1 tablespoon chopped fresh sage leaves",
+                "2 teaspoons chopped fresh thyme leaves",
+                "1 teaspoon fennel seeds, crushed",
+                "1/2 teaspoon crushed red pepper flakes, optional",
+                "1/8 teaspoon ground nutmeg",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "1 1/2 pounds ground pork",
+                "3 slices (uncooked) bacon, diced",
+                "2 tablespoons maple syrup, optional",
+                "1 tablespoon canola oil"
+            ],
+            "directions": [
+                "SAGE MIXTURE: In a small bowl, combine sage, thyme, fennel seeds, red pepper flakes, nutmeg, 1 1/2 teaspoons salt and 1 teaspoon pepper.",
+                "In a large bowl, combine pork, bacon, maple syrup and SAGE MIXTURE; be careful not to over mix.",
+                "To shape the patties, scoop out 1/4 cup (about 2 ounces) of pork mixture and flatten to create 2 1/2- to 3-inch wide patties, forming about 16 patties.",
+                "Heat canola oil in a large skillet over medium heat. Add sausage patties and cook until browned, about 2-3 minutes per side."
+            ]
+        },
+        {
+            "name": "how to make scrambled eggs",
+            "category": "breakfast",
+            "image": "files/how-to-make-scrambled-eggs.jpg",
+            "yield": "4 servings",
+            "prepTime": "5 minutes",
+            "totalTime": "10 minutes",
+            "ingredients": [
+                "8 large eggs",
+                "1/4 cup heavy cream",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "1 1/2 tablespoons unsalted butter",
+                "1 tablespoons chopped fresh chives"
+            ],
+            "directions": [
+                "Whisk together eggs, heavy cream, 3/4 teaspoon salt and 1/4 teaspoon pepper.",
+                "Melt butter in a large skillet over medium heat. Add eggs, and cook, stirring occasionally, until they just begin to set. Continue cooking until thickened and no visible liquid egg remains, about 3-5 minutes.",
+                "Serve immediately, garnished with chives, if desired."
+            ]
+        },
+        {
+            "name": "strawberries and cream buttermilk waffles",
+            "category": "breakfast",
+            "image": "files/strawberries-and-cream-buttermilk-waffles.jpg",
+            "yield": "4-6 servings",
+            "prepTime": "20 minutes",
+            "totalTime": "40 minutes",
+            "ingredients": [
+                "2 cups sliced strawberries",
+                "3 tablespoons sugar, divided",
+                "1 tablespoon freshly squeezed orange juice",
+                "2 cups all-purpose flour",
+                "2 teaspoons baking powder",
+                "1 teaspoon baking soda",
+                "1 teaspoon kosher salt",
+                "2 cups buttermilk",
+                "1/3 cup unsalted butter, melted",
+                "3 large eggs",
+                "1 cup cold heavy whipping cream"
+            ],
+            "directions": [
+                "In a large bowl, combine strawberries, 1 tablespoon sugar and orange juice. Let stand, stirring occasionally, until sugar has dissolved, about 10 minutes; set aside.",
+                "Preheat oven to 200 degrees F and a waffle iron to medium-high heat. Lightly oil the top and bottom of the waffle iron or coat with nonstick spray.",
+                "In a large bowl, combine flour, baking powder, baking soda, salt and 1 tablespoon sugar.",
+                "In a large glass measuring cup or another bowl, whisk together buttermilk, butter and eggs. Pour mixture over dry ingredients and stir using a rubber spatula just until moist but slightly lumpy.",
+                "Pour a scant 1/2 cup of the buttermilk mixture into the waffle iron, close gently and cook until golden brown and crisp, about 4-5 minutes; keep warm in oven.",
+                "In the bowl of an electric mixer fitted with the whisk attachment, beat the heavy cream and remaining 1 tablespoon sugar until medium peaks form, about 3-5 minutes.",
+                "Serve waffles immediately, topped with whipped cream and reserved strawberries."
+            ]
+        },
+        {
+            "name": "chicken and white bean stew",
+            "category": "chicken",
+            "image": "files/chicken-and-white-bean-stew.jpg",
+            "yield": "4 servings",
+            "prepTime": "20 minutes",
+            "totalTime": "1 hour 15 minutes",
+            "ingredients": [
+                "6 bone-in, skin-on chicken thighs",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "2 tablespoons unsalted butter",
+                "3 large shallots, diced",
+                "2 ribs celery, diced",
+                "3 cloves garlic, minced",
+                "1 tablespoon all-purpose flour",
+                "1/2 cup dry white wine",
+                "1 1/2 cups chicken stock",
+                "2 (15-ounce) cans cannellini beans, drained and rinsed",
+                "2 sprigs fresh thyme",
+                "2 sprigs fresh rosemary",
+                "1 pound baby red potatoes, halved",
+                "1/2 bunch kale, stems removed and leaves torn into bite-sized pieces"
+            ],
+            "directions": [
+                "Preheat oven to 325 degrees F.",
+                "Season chicken thighs with 1 teaspoon salt and 1/2 teaspoon pepper.",
+                "Melt butter in a large skillet over medium heat. Working in batches, add chicken, skin-side down, and sear both sides until golden brown, about 2-3 minutes per side; set aside.",
+                "Add shallots and celery, and cook, stirring occasionally, until tender, about 5-7 minutes; season with salt and pepper, to taste. Stir in garlic until fragrant, about 1 minute.",
+                "Whisk in flour until lightly browned, about 1 minute.",
+                "Stir in wine, scraping any browned bits from the bottom of the skillet. Stir in chicken stock, cannellini beans, thyme, rosemary and potatoes. Return chicken to the skillet.",
+                "Place into oven and bake until potatoes are tender and chicken has completely cooked through, reaching an internal temperature of 175 degrees F, about 40-45 minutes.",
+                "Stir in kale until wilted, about 2 minutes; season with salt and pepper, to taste.",
+                "Serve immediately."
+            ]
+        },
+        {
+            "name": "BBQ chicken pizza",
+            "category": "chicken",
+            "image": "files/BBQ-chicken-pizza.jpg",
+            "yield": "6 servings",
+            "prepTime": "15 minutes",
+            "totalTime": "40 minutes",
+            "ingredients": [
+                "2 tablespoons olive oil",
+                "1/4 cup yellow cornmeal",
+                "1 pound pizza dough, homemade or store-bought",
+                "1/2 cup plus 2 tablespoons favorite bbq sauce (we love Stubb’s)",
+                "2 cups leftover shredded rotisserie chicken",
+                "1 cup shredded smoked cheddar cheese",
+                "1 cup shredded whole milk mozzarella cheese",
+                "1/2 cup diced red onion",
+                "Kosher salt and freshly ground pepper, to taste",
+                "3 tablespoons chopped fresh cilantro leaves"
+            ],
+            "directions": [
+                "Preheat oven to 450 degrees F. Lightly coat a baking sheet or pizza pan with olive oil.",
+                "Working on a surface that has been sprinkled with cornmeal, roll out the pizza into a 12-inch-diameter round. Transfer to prepared baking sheet or pizza pan.",
+                "Using a small ladle, spread bbq sauce over the surface of the dough in an even layer, leaving a 1/2-inch border.",
+                "Top with chicken, cheeses and onion; season with salt and pepper, to taste.",
+                "Place into oven and bake for 20-24 minutes, or until the crust is golden brown and the cheeses have melted.",
+                "Serve immediately, garnished with cilantro, if desired."
+            ]
+        },
+        {
+            "name": "lemon garlic chicken kabobs",
+            "category": "chicken",
+            "image": "files/lemon-garlic-chicken-kabobs.jpg",
+            "yield": "6 servings",
+            "prepTime": "2 hours 30 minutes",
+            "totalTime": "2 hours 50 minutes",
+            "ingredients": [
+                "4 tablespoons olive oil, divided",
+                "2 tablespoons freshly squeezed lemon juice",
+                "1 tablespoon lemon zest",
+                "3 cloves garlic, minced",
+                "1 shallot, minced",
+                "2 teaspoons Dijon mustard",
+                "1 tablespoon chopped fresh rosemary",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "2 pounds boneless, skinless chicken thighs, cut into 1-inch chunks",
+                "1 red onion, cut into 1 1/2-inch pieces"
+            ],
+            "directions": [
+                "In a medium bowl, combine 2 tablespoons olive oil, lemon juice, lemon zest, garlic, shallot, Dijon, rosemary, 1 1/2 teaspoons salt and 1 1/2 teaspoons pepper.",
+                "Stir in chicken until well combined; marinate for at least 2 hours to overnight, turning occasionally. Drain the chicken from the marinade.",
+                "Thread chicken and onion onto skewers. Brush with remaining 2 tablespoons olive oil; season with salt and pepper, to taste.",
+                "Preheat grill to medium heat.",
+                "Add skewers to grill, and cook, turning occasionally, until the chicken is completely cooked through, reaching an internal temperature of 165 degrees F, about 10 minutes.",
+                "Serve immediately."
+            ]
+        },
+        {
+            "name": "sesame chicken bowls",
+            "category": "chicken",
+            "image": "files/sesame-chicken-bowls.jpg",
+            "yield": "4 servings",
+            "prepTime": "15 minutes",
+            "totalTime": "30 minutes",
+            "ingredients": [
+                "1 cup basmati rice",
+                "12 ounces broccoli florets, about 2-3 cups",
+                "1/2 cup chicken stock",
+                "1/4 cup orange marmalade",
+                "1/4 cup freshly squeezed orange juice",
+                "2 1/2 tablespoons reduced sodium soy sauce",
+                "1 tablespoon rice wine vinegar",
+                "1 tablespoon freshly grated ginger",
+                "3 cloves garlic, minced",
+                "1 teaspoon Sriracha, optional",
+                "4 1/2 tablespoons corn starch, divided",
+                "1 1/2 pounds boneless, skinless chicken thighs, cut into bite-size pieces",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "3 tablespoons canola oil",
+                "2 teaspoons toasted sesame seeds",
+                "1 green onion, thinly sliced"
+            ],
+            "directions": [
+                "In a large saucepan of 1 1/2 cups water, cook rice according to package instructions; set aside.",
+                "Place broccoli florets into a steamer or colander set over a pan of boiling water. Cover and steam for 5 mins, or until cooked through and vibrant green; set aside.",
+                "In a small bowl, whisk together chicken stock, orange marmalade, orange juice, soy sauce, vinegar, ginger, garlic, Sriracha, if using, and 1 tablespoon cornstarch.",
+                "Season chicken with 1/2 teaspoon salt and 1/2 teaspoon pepper; sprinkle with remaining 3 1/2 tablespoons cornstarch until evenly coated.",
+                "Heat canola oil in a large skillet over medium high heat. Working in two batches, add chicken and cook until golden brown, about 6-8 minutes. Stir in chicken stock mixture until thickened, about 2-3 minutes. Stir in sesame seeds.",
+                "Serve chicken immediately with rice and broccoli, garnished with green onion, if desired."
+            ]
+        },
+        {
+            "name": "pumpkin donut holes",
+            "category": "dessert",
+            "image": "files/pumpkin-donut-holes.jpg",
+            "yield": "24 servings",
+            "prepTime": "20 minutes",
+            "totalTime": "35 minutes",
+            "ingredients": [
+                "1 3/4 cups all-purpose flour",
+                "1/2 teaspoon ground cinnamon",
+                "1/2 teaspoon ground nutmeg",
+                "1/2 teaspoon ground allspice",
+                "1/8 teaspoon ground cloves",
+                "2 teaspoons baking powder",
+                "1/2 teaspoon salt",
+                "3/4 cup pumpkin puree",
+                "1/2 cup milk",
+                "1/2 cup brown sugar",
+                "1/3 cup canola oil",
+                "1 large egg",
+                "1 teaspoon vanilla extract",
+                "2 tablespoons ground cinnamon",
+                "2/3 cup sugar",
+                "4 tablespoons unsalted butter, melted"
+            ],
+            "directions": [
+                "Preheat oven to 350 degrees F. Lightly oil a mini muffin pan or coat with nonstick spray.",
+                "In a large bowl, combine flour, cinnamon, nutmeg, allspice, cloves, baking powder and salt.",
+                "In a large glass measuring cup or another bowl, whisk together pumpkin puree, milk, brown sugar, canola oil, egg and vanilla.",
+                "Pour mixture over dry ingredients and stir using a rubber spatula just until moist.",
+                "Scoop the batter evenly into the muffin tray.",
+                "Place into oven and bake for 10-12 minutes, or until a tester inserted in the center comes out clean.",
+                "To make the cinnamon sugar, combine cinnamon and sugar.",
+                "When the muffins are done, cool for 2 minutes and dip each muffin into the melted butter and then into the cinnamon-sugar mixture.",
+                "Let cool on a wire rack."
+            ]
+        },
+        {
+            "name": "perfect instant pot new york cheesecake",
+            "category": "dessert",
+            "image": "files/perfect-instant-pot-new-york-cheesecake.jpg",
+            "yield": "8 servings",
+            "prepTime": "7 hours 35 minutes",
+            "totalTime": "8 hours",
+            "ingredients": [
+                "1 1/4 cups graham crackers crumbs",
+                "5 tablespoons unsalted butter, melted",
+                "1/2 cup plus 1 tablespoon granulated sugar, divided",
+                "1/4 teaspoon ground cinnamon",
+                "2 (8-ounce) packages cream cheese, at room temperature",
+                "1 1/2 teaspoons cornstarch",
+                "3 large eggs, at room temperature",
+                "1/2 cup heavy cream, at room temperature",
+                "2 teaspoons vanilla extract",
+                "1 teaspoon fresh lemon zest",
+                "1/2 teaspoon almond extract",
+                "3 tablespoons strawberry jam",
+                "2 cups halved strawberries"        
+            ],
+            "directions": [
+                "Add 1 1/2 cups water to a 6-qt Instant Pot®. Place metal trivet into the pot.",
+                "Lightly oil a 7-inch springform pan or coat with nonstick spray.",
+                "In a large bowl, combine graham cracker crumbs, butter, 1 tablespoon sugar and cinnamon. Press crumb mixture onto the bottom and 1 1/2 inches up the sides of the pan; place in freezer.",
+                "In the bowl of an electric mixer fitted with the paddle attachment, beat cream cheese until smooth and creamy, scraping the sides of the bowl as needed, about 2 minutes. Beat in remaining 1/2 cup sugar and cornstarch. Beat in eggs, one at a time, until well combined. Beat in heavy creamy, vanilla, lemon zest and almond extract.",
+                "Remove crust from freezer; pour cream cheese mixture into the prepared pan. Working carefully, gently place the prepared pan on top of the trivet.",
+                "Select manual setting; adjust pressure to high, and set time for 28 minutes. When finished cooking, release pressure naturally according to manufacturer’s directions, about 20-30 minutes.",
+                "Remove cheesecake and let cool on a wire rack for 1 hour; run a paring knife around the edges. Cover; place into the refrigerator for 6 hours or overnight.",
+                "In a medium bowl, combine jam and 1 tablespoon water. Cover loosely and place into microwave for 30 seconds, or until melted and smooth. Stir in strawberries until evenly coated.",
+                "Remove cheesecake from pan; top with strawberry mixture.",
+                "Serve immediately."            
+            ]
+        },
+        {
+            "name": "slow cooker apple pear crisp",
+            "category": "dessert",
+            "image": "files/slow-cooker-apple-pear-crisp.jpg",
+            "yield": "8 servings",
+            "prepTime": "15",
+            "totalTime": "4 hours 15 minutes",
+            "ingredients": [
+                "4 apples, peeled and cut into 1/2-inch slices",
+                "3 Bosc pears, peeled and cut into 1/2-inch slices",
+                "1/3 cup light brown sugar",
+                "1 tablespoon all-purpose flour",
+                "1 tablespoon lemon juice",
+                "1/2 teaspoon ground cinnamon",
+                "1/4 teaspoon kosher salt",
+                "Pinch of ground nutmeg",
+                "3/4 cup all-purpose flour",
+                "3/4 cup old fashioned oats",
+                "1/2 cup chopped pecans",
+                "1/3 cup light brown sugar",
+                "1/2 teaspoon ground cinnamon",
+                "1/2 teaspoon kosher salt",
+                "8 tablespoons unsalted butter, cut into cubes"            ],
+            "directions": [
+                "To make the topping, combine flour, oats, pecans, sugar, cinnamon and salt in a medium bowl. Add cold butter and toss to coat, using your fingers to work the butter into the dry ingredients until it resembles coarse crumbs; set aside.",
+                "Lightly coat the inside of a 4-qt slow cooker with nonstick spray. Place apples, pears into the slow cooker. Stir in brown sugar, flour, lemon juice, cinnamon, salt and nutmeg. Sprinkle with reserved topping, using your fingertips to gently press the crumbs into the batter.",
+                "Place a clean dishtowel over the slow cooker. Cover and cook on low heat for 2-3 hours or high heat for 90 minutes. Remove the dishtowel and continue cooking, uncovered, until the topping is browned and the apples are just tender, about 1 hour.",
+                "Serve warm."            
+            ]
         }
     ]
 }
