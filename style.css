@@ -806,6 +806,40 @@ button:hover {
     background-size: 180px 270px;
     text-transform: uppercase;
   }
+  .About-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .About-us div {
+    max-width:500px;
+    padding:20px;
+  
+  }
+  
+  .featuredVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px
+  }
+  
+  
+  .featuredVideo iframe {
+    border: none;
+    margin:20px;
+  }
+  
+  .featuredVideo div {
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+  }
   
 }
 /* footer*/
