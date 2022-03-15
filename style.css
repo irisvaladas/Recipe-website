@@ -517,6 +517,7 @@ button:hover {
   cursor: pointer;
   background-size: 280px 400px;
   white-space: normal;
+  text-transform: uppercase;
 }
 
 
