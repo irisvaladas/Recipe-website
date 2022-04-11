@@ -155,7 +155,7 @@
       fetch("json.json")
         .then((response) => response.json())
         .then((data) => {
-          //console.log(data.meals);
+          console.log(data.meals);
           let recipe = "";
           for (var i = 0; i < data.meals.length; i++) {
             //console.log(data.meals[i].category);
